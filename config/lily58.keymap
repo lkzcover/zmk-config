@@ -62,13 +62,12 @@
 
         special {
             bindings = <
-&trans  &kp F1  &kp F2  &trans    &trans            &trans                                &trans  &trans             &trans          &trans           &trans         &trans
-&trans  &trans  &trans  &kp PIPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                     &trans  &kp C_VOLUME_DOWN  &kp UP_ARROW    &kp C_VOLUME_UP  &kp PAGE_UP    &trans
-&trans  &trans  &trans  &trans    &trans            &new_var                              &trans  &kp LEFT           &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
-&trans  &trans  &trans  &trans    &trans            &trans             &trans    &kp DEL  &trans  &trans             &trans          &trans           &trans         &trans
-                        &trans    &trans            &trans             &trans    &trans   &trans  &trans             &trans
+&trans     &kp F1  &kp F2  &trans    &trans            &trans                                &trans  &trans             &trans          &trans           &trans         &trans
+&kp GLOBE  &trans  &trans  &kp PIPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                     &trans  &kp C_VOLUME_DOWN  &kp UP_ARROW    &kp C_VOLUME_UP  &kp PAGE_UP    &trans
+&trans     &trans  &trans  &trans    &kp BACKSLASH     &new_var                              &trans  &kp LEFT           &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
+&trans     &trans  &trans  &trans    &trans            &trans             &trans    &kp DEL  &trans  &trans             &trans          &trans           &trans         &trans
+                           &trans    &trans            &trans             &trans    &trans   &trans  &trans             &trans
             >;
         };
     };
 };
-
